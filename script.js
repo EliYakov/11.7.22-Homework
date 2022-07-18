@@ -50,3 +50,8 @@ car.innerHTML =
   carProfile.Year +
   `</li>
 </ul>`;
+
+const redColor = window.document.getElementById("hello");
+console.dir(redColor);
+redColor.className = "bg-danger";
+redColor.width = "100%";
